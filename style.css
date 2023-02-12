@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Inconsolata",sans-serif;
+    height: 100vh;
+    background: #30336b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.main-heading h2{
+    margin-bottom: 20px;
+}
+button{
+    display: inline-block;
+    background: #f8b627;
+    color:#f4f4f4 ;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    border-radius: 3px;
+    transition: 400ms;
+    text-decoration: none;
+    padding: 10px;
+    z-index: 100000;
+}
+
+img{
+    width: 200px;
+}
